@@ -1,3 +1,4 @@
 class Genre < ActiveRecord::Base
-  # add associations
+  # add association
+  has_many :songs
 end
